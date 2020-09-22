@@ -16,6 +16,7 @@
 		B5954F2D251A54AD00802259 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5954F2C251A54AD00802259 /* Default-568h@2x.png */; };
 		B5954F32251A588100802259 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5954F31251A588100802259 /* News.swift */; };
 		B5954F35251A5DE400802259 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5954F34251A5DE400802259 /* API.swift */; };
+		B5954F38251A5F6A00802259 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5954F37251A5F6A00802259 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B5954F2C251A54AD00802259 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B5954F31251A588100802259 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		B5954F34251A5DE400802259 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B5954F37251A5F6A00802259 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		B5954F14251A52CB00802259 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				B5954F36251A5F2700802259 /* Services */,
 				B5954F33251A5DCD00802259 /* Config */,
 				B5954F2E251A54B400802259 /* Views */,
 				B5954F2B251A549700802259 /* ViewModels */,
@@ -122,6 +125,14 @@
 				B5954F34251A5DE400802259 /* API.swift */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		B5954F36251A5F2700802259 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B5954F37251A5F6A00802259 /* NetworkManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5954F38251A5F6A00802259 /* NetworkManager.swift in Sources */,
 				B5954F16251A52CB00802259 /* AppDelegate.swift in Sources */,
 				B5954F18251A52CB00802259 /* SceneDelegate.swift in Sources */,
 				B5954F32251A588100802259 /* News.swift in Sources */,
